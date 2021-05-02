@@ -1,4 +1,14 @@
-  .g-main-content h1.headline {
+.g-main-content {
+  
+  .warning {
+    margin-top: 10px;
+    background-color: $gray-50;
+    color: $black;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  h1.headline {
     font-family: $font-headline;
     font-size: 36px;
     line-height: 40px;
@@ -17,3 +27,50 @@
       margin: 40px 0 5px;
     }
   }
+
+  .kicker {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+
+  .attribution {
+    p {
+      font-family: $font-sans;
+      font-size: 13px;
+      color: $nav-text-color;
+      margin: 0;
+      line-height: 18px;
+      font-weight: 400;
+
+      .author {
+        font-weight: 500;
+        color: #666;
+      }
+    }
+  }
+
+  .tool {
+    font-size: 13px;
+    font-weight: 400;
+
+    a {
+      color: $gray-40;
+      text-decoration: underline;
+      .fa {
+        margin-left: 5px;
+        color: $gray-40;
+      }
+    }
+
+    a:hover {
+      color: $accent;
+      .fa {
+        color: $accent;
+      }
+    }
+
+
+  }
+}
