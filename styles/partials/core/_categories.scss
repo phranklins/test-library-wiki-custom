@@ -262,22 +262,22 @@
     }
 
     h1.headline {
-      font-family: $font-headline;
-      font-size: 36px;
-      line-height: 40px;
-      font-weight: 200;
-      color: $black;
-      margin: 20px 0 5px;
+      font-family: $font-headline !important;
+      font-size: 36px !important;
+      line-height: 40px !important;
+      font-weight: 200 !important;
+      color: $black !important;
+      margin: 20px 0 5px !important;
 
       @include tablet {
-        font-size: 42px;
-        line-height: 48px;
-        margin: 40px 0 5px;
+        font-size: 42px !important;
+        line-height: 48px !important;
+        margin: 40px 0 5px !important;
       }
       @include desktop {
-        font-size: 44px;
-        line-height: 48px;
-        margin: 40px 0 5px;
+        font-size: 44px !important;
+        line-height: 48px !important;
+        margin: 40px 0 5px !important;
       }
     }
     
