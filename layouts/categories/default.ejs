@@ -18,7 +18,6 @@
       </div>
 
       <div class="g-main-content">
-      <div class="g-upper-body">
         <% if (locals.title) { %>
         <% if (locals.duplicates) { %>
           <%- include('partials/warning', {message: template('warning.duplicate', locals.duplicates, locals.parentId) }) %>
