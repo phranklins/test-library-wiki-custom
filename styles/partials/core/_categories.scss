@@ -212,8 +212,16 @@
   .g-main-content {
     border-top: 5px solid $gray-60;
   }
-
   
+  
+  .playlist-navigation,
+  .g-main-content {
+    max-width: 600px;
+    margin: 0px auto 0 auto;
+    padding: 10px 0px;
+    word-break: break-word; // force break on very long lines without spaces
+
+
     .warning {
       margin-top: 10px;
       background-color: $gray-50;
@@ -284,18 +292,10 @@
           color: $accent;
         }
       }
-    }
-  
-  
-  
-  
-  .playlist-navigation,
-  .g-main-content {
-    max-width: 600px;
-    margin: 0px auto 0 auto;
-    padding: 10px 0px;
-    word-break: break-word; // force break on very long lines without spaces
-
+    }    
+    
+    
+    
     table {
       word-break: keep-all; // don't word break inside tables
     }
