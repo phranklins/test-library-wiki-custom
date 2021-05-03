@@ -72,6 +72,11 @@
         <% if (locals.siblings && siblings.length) { %>
         <%- include('partials/siblingList', {kicker: template('folder.siblingList.heading')}) %>
         <% } %>
+        <% const style = locals.style || 'plaintext' %>
+        <div class="additional-menus <%= style %>">
+          <a href="/categories"><button type="button" class="button btn-<%= style %>"><%- template('landing.viewAll') %></button></a>
+        </div>
+        <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
 
