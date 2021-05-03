@@ -16,12 +16,13 @@
 
 .g-body {
     margin: initial;
-    padding: initial;
+    padding-left: 15%;
 }
 
 .g-body .g-left-panel {
-    top: 100px;
     position: fixed;
+    left: 0px;
+    top: 100px;
 
     .d-fixed {
         position: fixed;
@@ -32,27 +33,25 @@
         margin-top: initial;
     }
     
-    @media (min-width: 1024px) {
-        padding: 10px 20px;
+    @include desktop{
+  		display: block;
+      padding: 10px 0;
+      width: 15%;
+  	}
+    @media (min-width: 1175px) {
+      display: block;
+      margin: 10px 20px;
+      width: 12%;
     }
 }
     
 .g-body .g-main-content {
     border-top: 0px;
-    max-width: 70%;
+    max-width: 80%;
     margin-top: 50px;
     
     @media (min-width: 775px) {    
         margin-top: 100px;
-        left: 120px;
-    }
-    
-    @media (min-width: 1024px) {  
-        left: 120px;
-    }
-    
-    @media (min-width: 1175px) {
-        left: 250px;
     }
 }
 
