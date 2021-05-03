@@ -23,11 +23,6 @@
     position: fixed;
     left: 0px;
     top: 100px;
-
-    .d-fixed {
-        position: fixed;
-        top: 100px;
-    }
     
     .section-kicker {
         margin-top: initial;
@@ -43,6 +38,10 @@
       margin: 10px 20px;
       width: 12%;
     }
+}
+
+.g-body .g-left-panel.d-fixed {
+    top: 100px;
 }
     
 .g-body .g-main-content {
