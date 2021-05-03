@@ -1,9 +1,29 @@
+.masthead search-topper {
+    width: 500px; 
+    position: fixed; 
+    left: 74px;
+    margin-top: 8px;
+}
+
+.masthead .search-container .twitter-typeahead {
+    height: 30px;
+    box-shadow: none;
+    float: none;
+}
+
+.masthead .search-container .icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+}
+
+
 .g-upper-body {
     max-width: 100%;
     margin: 50px auto 0px auto;
     padding: 0 10px;
     position: fixed;
-    top: 0;
+    top: -1px;
     left: 0;
     width: 100vw;
     background-color: white;
