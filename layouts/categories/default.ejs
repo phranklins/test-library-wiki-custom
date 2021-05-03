@@ -4,7 +4,9 @@
   <body>
     <h1 class="visually-hidden">Default template</h1>
     <%- include('partials/header') %>
-    <div class="g-upper-body">&nbsp;</div>
+    <div class="g-upper-body">
+      <%- include('breadcrumb') %>
+    </div>
     <div class="g-body">
       <div class="g-left-panel">
         <% if (locals.sections && locals.sections.length) { %>
