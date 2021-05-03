@@ -27,6 +27,10 @@
         margin-top: initial;
     }
     
+    ul.sibling {
+        margin-bottom: 10px;
+    }
+    
     @include desktop{
   		display: block;
       padding: 10px 0;
