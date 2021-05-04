@@ -3,6 +3,11 @@ header .search-topper {
     position: fixed !important;
     left: 74px !important;
     margin-top: 8px !important;
+    display: none;
+    
+    @media (min-width: 775px) {    
+        display: block;
+    }
 }
 
 header .search-container .twitter-typeahead {
