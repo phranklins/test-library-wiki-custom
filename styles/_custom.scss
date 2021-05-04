@@ -1,14 +1,14 @@
-header .search-topper {
-    width: 500px;
-    position: fixed;
-    left: 74px;
-    margin-top: 8px;
+header .search-topper {
+    width: 500px !important;
+    position: fixed !important;
+    left: 74px !important;
+    margin-top: 8px !important;
 }
 
-header .search-container .twitter-typeahead {
-    height: 30px;
-    box-shadow: none;
-    float: none;
+header .search-container .twitter-typeahead {
+    height: 30px !important;
+    box-shadow: none !important;
+    float: none !important;
 }
 header .search-container .icon {
     height: 30px;
