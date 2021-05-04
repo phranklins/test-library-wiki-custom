@@ -1,27 +1,27 @@
 branding:
-  name: About Library 
-  org: The New York Times
-  orgDomain: nytimes.com
-  prettyName: About Library
+  name: Wiki
+  org: Our Company
+  orgDomain: google.com
+  prettyName: Wiki
   favicon: /assets/images/library.ico
 
 landing:
-  tagline: A simple documentation site, built from content in Google Docs.
+  tagline: Find the information you need and easily share information you create.
   viewAll: View All Docs
   quickLink: <a href="/get-started">Get started</a>.
 
 footer:
-  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
-  defaultEmail: test.user@nytimes.com
+  helpText: For help contributing or to report a problem, check out our <a href="/help">FAQ</a> or email our IT team at <a href="mailto:help@help.com">help@help.com</a>.
+  defaultEmail: help@help.com
 
 search:
-  placeholder: What do you want to know about Library?
+  placeholder: What are you looking for?
   results:
     none:
-      suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on Github</a>.
+      suggestion: To request a new page, let us know at <a href="mailto:help@help.com">help@help.com</a>.
 
 # errors
 error:
   403:
-    message: "<p>For this documentation site, we've disabled the final step of the Move File workflow. Normally, this request would succeed and you'd be taken to the new url for your page.</p>"
+    message: "<p>This page has been moved, deleted, or restricted. If you feel this is an error, please reach out to us at <a href="mailto:help@help.com">help@help.com</a></p>"
 
