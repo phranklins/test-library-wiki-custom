@@ -1,17 +1,16 @@
-.container .search-topper {
+header .search-topper {
     width: 500px;
     position: fixed;
     left: 74px;
     margin-top: 8px;
 }
 
-.container .search-container .twitter-typeahead {
+header .search-container .twitter-typeahead {
     height: 30px;
     box-shadow: none;
     float: none;
 }
-
-.container .search-container .icon {
+header .search-container .icon {
     height: 30px;
     width: 30px;
     margin-left: 0px;
