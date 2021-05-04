@@ -23,7 +23,7 @@ header .search-container .icon {
 }
 
 
-.g-upper-body {
+.g-upper-body.default {
     max-width: 100%;
     margin: 50px auto 0px auto;
     padding: 0 10px;
@@ -38,12 +38,12 @@ header .search-container .icon {
       }
 }
 
-.g-body {
+.g-body.default {
     margin: initial;
     padding-left: 15%;
 }
 
-.g-body .g-left-panel {
+.g-body.default .g-left-panel {
     position: fixed;
     left: 0px;
     top: 100px;
@@ -68,11 +68,11 @@ header .search-container .icon {
     }
 }
 
-.g-body .g-left-panel.d-fixed {
+.g-body.default .g-left-panel.d-fixed {
     top: 100px;
 }
     
-.g-body .g-main-content {
+.g-body.default .g-main-content {
     border-top: 0px;
     max-width: 80%;
     margin-top: 50px;
@@ -161,6 +161,6 @@ header .search-container .icon {
   }
 }
 
-.g-body .g-footer {
+.g-body.default .g-footer {
     max-width: 80%;
 }
