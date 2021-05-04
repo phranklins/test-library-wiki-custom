@@ -1,17 +1,17 @@
-.masthead .search-topper {
+.container .search-topper {
     width: 500px;
     position: fixed;
     left: 74px;
     margin-top: 8px;
 }
 
-.masthead .search-container .twitter-typeahead {
+.container .search-container .twitter-typeahead {
     height: 30px;
     box-shadow: none;
     float: none;
 }
 
-.masthead .search-container .icon {
+.container .search-container .icon {
     height: 30px;
     width: 30px;
     margin-left: 0px;
