@@ -62,7 +62,11 @@ header .search-container .icon {
     left: 0;
     width: 100vw;
     background-color: white;
-  
+      
+      .breadcrumb-home {
+          float:left;
+          margin: 15px 0px;
+      }
       .breadcrumb {
         float: none;
       }
