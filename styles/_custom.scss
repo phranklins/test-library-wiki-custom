@@ -32,6 +32,7 @@ header .search-container .icon {
     }
     &:hover, &:active, &:target {
       text-decoration: none;
+        background: $accent-lightest;
 
       button.btn-user-initial {
         background: $accent-lightest;
