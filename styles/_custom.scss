@@ -90,16 +90,6 @@ header .search-container .icon {
         margin-bottom: 10px;
     }
     
-    @include desktop{
-  		display: block;
-      padding: 10px 0;
-      width: 15%;
-  	}
-    @media (min-width: 1175px) {
-      display: block;
-      margin: 10px 20px;
-      width: 12%;
-    }
 }
 
 .g-body.default .g-left-panel.d-fixed {
