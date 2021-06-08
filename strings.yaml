@@ -1,8 +1,8 @@
 branding:
-  name: Wiki
+  name: Internal Knowledge Center
   org: Our Company
   orgDomain: google.com
-  prettyName: Wiki
+  prettyName: Home
   favicon: /assets/images/library.ico
 
 landing:
