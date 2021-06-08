@@ -22,6 +22,31 @@ header .search-container .icon {
     top: 0px;
 }
 
+#user-profile {
+  a.btn-user-whole {
+    &:link, &:visited {
+      color: $white;
+      font-size: 15px;
+      letter-spacing: 0.25px;
+      padding: 17px 15px 16px 15px;
+    }
+    &:hover, &:active, &:target {
+      text-decoration: none;
+
+      button.btn-user-initial {
+        background: $accent-lightest;
+        color: $white;
+        border-color: $white;
+      }
+    }
+  }
+
+  button.btn-user-initial {
+    color: $white;
+    border-color: $white;
+  }
+}
+
 
 .g-upper-body.default {
     max-width: 100%;
@@ -88,7 +113,7 @@ header .search-container .icon {
   
   .warning {
     margin-top: 10px;
-    background-color: $gray-50;
+    background-color: $gray-90;
     color: $black;
     padding: 15px;
     font-size: 14px;
