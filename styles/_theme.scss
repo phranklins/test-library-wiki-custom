@@ -10,11 +10,11 @@ $font-sans: 'Roboto', sans-serif;
 // Colors
 //------------------------------------------------------------------------------
 // Classic Dark Theme
-$masthead-background: $gray-10;
+$masthead-background: #02568B;
 $main-homepage-background: $white;
-$main-homepage-icon-color: $black;
-$main-homepage-icon-border: $black;
-$main-page-text-color: $gray-35;
+$main-homepage-icon-color: #02568B;
+$main-homepage-icon-border: #02568B;
+$main-page-text-color: #013243;
 $main-page-btn-color: $gray-45;
 $search-container-background: $gray-70;
 $search-container-hover: $white;
@@ -31,6 +31,3 @@ $elem-active-link-color: $gray-50;
 $elem-link-accent: $accent;
 $nav-text-color: $gray-40;
 
-.logo {
-  filter: invert(100%);
-}
