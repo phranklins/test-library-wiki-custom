@@ -66,9 +66,27 @@ header .search-container .icon {
       .breadcrumb-home {
           float:left;
           margin: 15px 0px;
+          
+          a:hover {
+              text-decoration: underline;
+          }
+          a:visited {
+              color: $accent-light;
+          }
+          a:link {
+              text-decoration: initial;
+              color: $accent-light;
+          }
       }
       .breadcrumb {
         float: none;
+      }
+      .breadcrumb-item {
+        float: none;
+          
+          a:link {
+              text-decoration: initial;
+          }
       }
 }
 
