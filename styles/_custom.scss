@@ -14,7 +14,11 @@ header .search-container .twitter-typeahead {
     height: 30px !important;
     box-shadow: none !important;
     float: none !important;
+    &:hover, &:active, &:target {
+      background: $white;
+      }
 }
+
 header .search-container .icon {
     height: 30px;
     width: 30px;
